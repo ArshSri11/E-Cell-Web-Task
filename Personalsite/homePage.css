@@ -6,7 +6,7 @@ body{
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding: 3px;
     overflow: hidden;
     background-color:orange;
   }
@@ -26,7 +26,8 @@ li a {
   }
   
 li a:hover:not(.active) {
-    background-color: rgb(124, 128, 0);
+    background-color: black;
+    color: orange;
   }  
 a{
     margin-left:20px;
